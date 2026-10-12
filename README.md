@@ -1,5 +1,5 @@
 # Утилита pty_bridge
-Cоздёт пару связанных между собой виртуальных последовательных портов (ttyV0 и ttyV1) для любых программ. Например, чтобы соединить между собой [(X)NET](https://www.qsl.net/swlkp3/Packet/(X)Net/) и [TNCD](https://github.com/ben-kuhn/tncd).
+Cоздёт пару связанных между собой виртуальных последовательных портов (ttyV0 и ttyV1) для любых программ. Например, чтобы соединить между собой [(X)NET](https://www.qsl.net/swlkp3/Packet/(X)Net/) и [tncd](https://github.com/ben-kuhn/tncd).
 
 Компилируем код командой 
 `gcc -O2 -Wall -Wextra -o pty_bridge pty_bridge.c -lutil`
